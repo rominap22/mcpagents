@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "/opt/miniconda3/bin/uv",
+        "args": [
+          "run",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "/Users/rparimi/Desktop/mcp-genAI/mcpnp/server/weather.py"
+        ]
+      }
+    }
+}
