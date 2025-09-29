@@ -1,9 +1,14 @@
+# MCP Inspector
 uv run mcp dev server/weather.py
+
+# MCP Cursor
 uv run server/client.py
-##
--- MCP Agentic AI Crash Course With Python
+
+# MCP Agentic AI Crash Course With Python
+
 sample query to invoke weather.py server
-#Commands:
+
+# Commands:
 
 @weather.ping
 
@@ -13,7 +18,8 @@ clear — clear history
 
 exit — quit
 
-Examples:
+# Examples:
+
 @weather.get_alerts state="CA"
 
 @weather.get_alerts state="CA" event_filter="heat" limit=5 include_expires=true
